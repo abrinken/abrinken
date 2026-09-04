@@ -3,10 +3,6 @@ published: 2026-09-03
 
 Hi comrades! 💞
 
-A lot of people who are staying at Ⓐbrinken, are out of town this weekend 🚌💨
-
-Therefore we need more people on-site, already from tomorrow 🫰
-
 We’ve had cops visiting us twice the last few days. They haven’t been hostile, and both times they left without entering and without ID’ing people 🐷
 
 We’ve been handling things super well, but from tomorrow we will be down in numbers, which makes us more vulnerable 🖤
