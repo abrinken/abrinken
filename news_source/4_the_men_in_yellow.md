@@ -1,0 +1,12 @@
+title: The men in yellow
+published: 2026-09-01
+
+We had a nice little visit from the municipality today 🏛️
+
+Unfortunately for them, they decided to bring some cops. We obviously couldn’t let those guys in… so they had to turn around and leave 👮‍♂️❌
+
+We believe they’ll try to come back again in the near future, and we therefore invite you all to come out and support us in the coming weeks!
+
+We always have many things to do, and we would love your help. If you already live in the area, you are always welcome to drop by and join our daily plenums at 12:30. They’re a chill way to start the day, and a great way of finding out more about what’s going on here at Ⓐbrinken ❤️
+
+Let’s build a utopia together! 🌳

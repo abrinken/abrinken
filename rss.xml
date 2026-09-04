@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0" nsmap="{'atom': 'http://www.w3.org/2005/Atom', 'content': 'http://purl.org/rss/1.0/modules/content/'}">
+	<channel>
+		<title>Ⓐbrinken Updates &amp; News</title>
+		<link>https://abrinken.org/rss.xml</link>
+		<description>Update feed for the Abrinken collective</description>
+		<ns0:link href="https://abrinken.org/rss.xml" rel="self"/>
+		<docs>http://www.rssboard.org/rss-specification</docs>
+		<generator>python-rssgen</generator>
+		<image>
+			<url>https://abrinken.org/assets/anarchy.png</url>
+			<title>Ⓐbrinken Updates &amp; News</title>
+			<link>https://abrinken.org/rss.xml</link>
+		</image>
+		<language>en</language>
+		<lastBuildDate>Fri, 04 Sep 2026 12:56:14 +0000</lastBuildDate>
+		<item>
+			<title>Abrinken - Eviction Notice</title>
+			<description>&lt;p&gt;This is a call to action!&lt;/p&gt;
+&lt;p&gt;The cops and municipality came with an eviction notice this morning.&lt;/p&gt;
+&lt;p&gt;According to the state, we have until the 9th of September to pack up and leave.&lt;/p&gt;
+&lt;p&gt;Although we don't know if they wil actually evict us, we think this is a crucial time to get involved and help protect our home🔥&lt;/p&gt;
+&lt;p&gt;We have already tried to reach out to the municipality, but we have not heard back from them yet.&lt;/p&gt;
+&lt;p&gt;We need all hands on deck, making food, building structures, maintaining the area and having fun💖&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;A letter containing an eviction notice&quot; src=&quot;https://abrinken.org/assets/new/6_eviction_notice/notice.jpg&quot; /&gt;&lt;/p&gt;</description>
+			<pubDate>Thu, 03 Sep 2026 22:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Abrinken - Under the covers</title>
+			<description>&lt;p&gt;Hi comrades! 💞&lt;/p&gt;
+&lt;p&gt;A lot of people who are staying at Ⓐbrinken, are out of town this weekend 🚌💨&lt;/p&gt;
+&lt;p&gt;Therefore we need more people on-site, already from tomorrow 🫰&lt;/p&gt;
+&lt;p&gt;We’ve had cops visiting us twice the last few days. They haven’t been hostile, and both times they left without entering and without ID’ing people 🐷&lt;/p&gt;
+&lt;p&gt;We’ve been handling things super well, but from tomorrow we will be down in numbers, which makes us more vulnerable 🖤&lt;/p&gt;
+&lt;p&gt;We therefore very much encourage you to come and spend your weekend with us 🔥&lt;/p&gt;
+&lt;p&gt;We have plenty of sleeping spaces, good food, nice projects and cute comrades 🥰&lt;/p&gt;
+&lt;p&gt;You can contact us through this Signal profile or through our email: abrinken8000@proton.me 💌&lt;/p&gt;
+&lt;p&gt;xx - your friendly neighbourhood anarchists&lt;/p&gt;</description>
+			<pubDate>Wed, 02 Sep 2026 22:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Abrinken - You've got Mail!</title>
+			<description>&lt;p&gt;We've sent an email to Aarhus Municipality and invited them for a chat and a look at the Garden (without police) 🌳&lt;/p&gt;
+&lt;p&gt;Hopefully initiating peaceful, diplomatic contact will deter the municipality from escalating the police intervention ☮️&lt;/p&gt;
+&lt;p&gt;We also keep fortifying and upgrading our perimeter defences to make sure the cops will never know what to expect when they arrive&lt;/p&gt;
+&lt;p&gt;Stay tuned for further updates ✨&lt;/p&gt;</description>
+			<pubDate>Tue, 01 Sep 2026 22:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Abrinken - The men in yellow</title>
+			<description>&lt;p&gt;We had a nice little visit from the municipality today 🏛️&lt;/p&gt;
+&lt;p&gt;Unfortunately for them, they decided to bring some cops. We obviously couldn’t let those guys in… so they had to turn around and leave 👮‍♂️❌&lt;/p&gt;
+&lt;p&gt;We believe they’ll try to come back again in the near future, and we therefore invite you all to come out and support us in the coming weeks!&lt;/p&gt;
+&lt;p&gt;We always have many things to do, and we would love your help. If you already live in the area, you are always welcome to drop by and join our daily plenums at 12:30. They’re a chill way to start the day, and a great way of finding out more about what’s going on here at Ⓐbrinken ❤️&lt;/p&gt;
+&lt;p&gt;Let’s build a utopia together! 🌳&lt;/p&gt;</description>
+			<pubDate>Mon, 31 Aug 2026 22:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Abrinken - Pigs at the gate</title>
+			<description>&lt;p&gt;Call to action!&lt;/p&gt;
+&lt;p&gt;Fellow activists, we have now had our first real interaction with the police. Four of them showed up on our doorstep last night, with another eight (plus some dogs) arriving soon after to guard the perimeter.&lt;/p&gt;
+&lt;p&gt;We got enough advance warning from our perimeter guard to be able to send out a greeting party. The interaction proceeded amicably enough, despite the tense situation. The cops took a bunch of photos, tried (and failed) to get information from us, and went on their way.&lt;/p&gt;
+&lt;p&gt;What became clear to us is that we do not currently have enough people on site to deal with an actual eviction attempt. We would like to change that.&lt;/p&gt;
+&lt;p&gt;So if you’ve been here before and know you want to return, or if you’ve been thinking about dropping by to help make this place a permanent reality, we urge you to consider now the time to do so.&lt;/p&gt;
+&lt;p&gt;Let us gather our strength and come together now. Let’s make sure that Ⓐbrinken is here to stay!&lt;/p&gt;</description>
+			<pubDate>Wed, 26 Aug 2026 22:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Abrinken - Banners</title>
+			<description>&lt;p&gt;A set of banners has popped up around the area.
+We happen think they're pretty cool.
+&lt;img alt=&quot;A long banner on the side of a bridge with the text &amp;quot;Der er transer i træerne.&amp;quot; or &amp;quot;There's trans folks in the trees&amp;quot;&quot; src=&quot;https://abrinken.org/assets/news/2_banners/der_er_transer_i_traeerne.jpg&quot; /&gt;
+&lt;img alt=&quot;A banner on a fence with the text &amp;quot;Neg til beton, ja til natur!&amp;quot; or &amp;quot;No to concrete, yes to nature!&amp;quot;&quot; src=&quot;https://abrinken.org/assets/news/2_banners/neg_til_beton_ja_til_natur.jpg&quot; /&gt;&lt;/p&gt;</description>
+			<pubDate>Fri, 21 Aug 2026 22:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Abrinken - Ⓐbrinken Goes Live!</title>
+			<description>&lt;p&gt;Hi everyone,&lt;/p&gt;
+&lt;p&gt;This is our first update post!
+As of today, 2026-09-04, we have officially gone live and public.
+Check out our website &lt;a href=&quot;https://abrinken.org&quot;&gt;https://abrinken.org&lt;/a&gt;, or come by some time!&lt;/p&gt;</description>
+			<pubDate>Thu, 20 Aug 2026 22:00:00 +0000</pubDate>
+		</item>
+	</channel>
+</rss>
