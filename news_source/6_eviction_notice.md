@@ -13,4 +13,4 @@ We have already tried to reach out to the municipality, but we have not heard ba
 
 We need all hands on deck, making food, building structures, maintaining the area and having fun💖
 
-![A letter containing an eviction notice](https://abrinken.org/assets/new/6_eviction_notice/notice.jpg)
+![A letter containing an eviction notice](https://abrinken.org/assets/news/6_eviction_notice/notice.jpg)

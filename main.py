@@ -61,8 +61,8 @@ if __name__ == "__main__":
     posts = sorted(posts, key=attrgetter("published"))
 
     for post in posts:
-        html: str = newPost.getHtml()
-        with open(compDir + "/" + filename.replace(".md", ".html"), "w+") as file:
+        html: str = post.getHtml()
+        with open(compDir + "/" + post.filename.replace(".md", ".html"), "w+") as file:
             file.write(html)
         post.createRssPost(feed)
 
