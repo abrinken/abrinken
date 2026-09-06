@@ -2,58 +2,79 @@
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
 
-   body {
-    background-color: black;
-    color: white;
-    font-family: Verdana;
-    background-image: url('/assets/bz_dark.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: contain;
-    background-position: center;
-  }
-  p {
-    max-width: 60ex;
-  }
-  a:link {
-    color: lime;
-  }
-  a:visited {
-    color: lime;
-  }
-  
-  table {
-    border: 2px solid darkred;
-  }
-  
-  td {
-    border: 1px solid white;
-    padding: 10px;
-  }
-  
+body {
+  background-color: black;
+  color: white;
+  font-family: Verdana;
+  background-image: url('/assets/bz_dark.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  background-position: center;
+}
+
+h2 {
+  text-align: left;
+}
+
+p {
+  max-width: 60ex;
+}
+
+a:link {
+  color: lime;
+}
+
+a:visited {
+  color: lime;
+}
+
+table {
+  border: 2px solid darkred;
+}
+
+td {
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (width >=900px) {
   .container {
-    display: flex;
-    justify-content: center;
+    flex-direction: row;
+  }
+  .tri {
+    width: 30vw;
+    margin: 1em;
   }
   
-  @media screen and (width >= 900px) {
-    .container {
-      flex-direction: row;
-    }
+}
+
+@media screen and (width < 900px) {
+  .container {
+    flex-direction: column;
+  }
+  .tri {
+    width: 85vw;
+    margin: 1em;
   }
   
-  @media screen and (width < 900px) {
-    .container {
-      flex-direction: column;
-    }
-  }
-  
-  /*img {
-    max-width: 60ex;
-  }*/
+}
+
+.logo {
+  text-align: center; 
+  font-family: 'Courier New', Courier, monospace; 
+  font-weight: 900; 
+  font-size: 5rem; 
+  padding-top: 3vh
+}
 
 .poster {
-  margin-top: 30px; 
+  margin-top: 30px;
   max-width: 15vw;
   margin: 10px;
 }
