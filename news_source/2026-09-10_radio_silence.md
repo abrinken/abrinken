@@ -1,0 +1,10 @@
+title: Radio Silence
+published: 2026-09-10
+
+The following update is a statement on our communication attempts with Aarhus Municipality.
+
+We have repeatedly reached out to Aarhus Municipality to initiate a dialogue, yet have received no response.
+We have invited the Department of Urban Development, Line Joel (Head of Aarhus Real Estate), and Nikolaj Bang personally—not just for a meeting, but also for a tour of the site.
+We find it puzzling that Nikolaj Bang attempts to portray the situation as if they have exhausted all avenues for a peaceful, diplomatic solution and are forced to resort to harsher measures, given that Aarhus Municipality has rejected every attempt at dialogue.
+
+Since the original publication of this post the commune has received an email from the municipality in which they reject our invitation to a meeting.
