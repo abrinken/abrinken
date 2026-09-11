@@ -18,7 +18,7 @@ class Post:
         self.filename = filename
         for line in content:
             if line.startswith("title: "): self.title = line[len("title: "):None]
-            elif line.startswith("published: "): self.published = dt.fromisoformat(line[len("published: "):None]).astimezone(tz.tzutc())
+            elif line.startswith("published: "): self.published = dt.fromisoformat(line[len("published: "):None]).astimezone(tz.tzlocal())
             else: self.content += line + "\n"
 
         return self
