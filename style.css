@@ -81,12 +81,10 @@ td {
 }
 
 .photo-container {
-  margin-top: 5vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  padding-bottom: 50vh;
 }
 
 .photo-container a img {
