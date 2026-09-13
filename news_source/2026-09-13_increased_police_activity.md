@@ -1,0 +1,6 @@
+title: Increased Police Activity
+published: 2026-09-13
+
+For the past four days the police has shown more and more interest in Ⓐbrinken. Several times a day they have slowly driven past our entrance, turned around at the cricket field parking lot, and left again the way they came. A few times they've exchanged words with our front guard from inside their car. We have also spotted them on the other side of the autonomous zone. 
+
+Last night, a white van with a super bright spotlight on the roof and the word "Innsatsleder" on the side pulled up to our front gate. Two police officers stepped out and tried to walk past our guard post. They ultimately decided against it, and left without any incident.
