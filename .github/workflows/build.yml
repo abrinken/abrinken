@@ -4,13 +4,12 @@
 name: Build website
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
   build:
@@ -33,6 +32,17 @@ jobs:
     - name: Build RSS
       run: |
         python main.py
+
+    - name: Commit changes
+      run: |
+        git config --global user.email "no-reply@github.com"
+        git config --global user.name "GitHub Actions"
+        git add *
+        git commit -m "Build news"
+        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+        git push
+      env:
+        GITHUB\_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
     - name: Setup Pages
       uses: actions/configure-pages@v5
