@@ -37,6 +37,28 @@ class Post:
         post.published(self.published)
         post.description(self.getHtml())
 
+def update_index_html(posts: list[Post]):
+    with open("index.html", "r") as file:
+        lines: list[str] = file.readlines()
+        lines_stripped = [line for line in lines if not line.strip().startswith("<tr id=\"feed_entry\">")]
+        feed_start = [line.strip() for line in lines].index("<!--start feed data-->") + 1
+        # Show only the latest 10 posts
+        for i, post in enumerate(list(reversed(posts))[0:10]):
+            lines_stripped.insert(feed_start + i, f"<tr id=\"feed_entry\"><td>{post.published.strftime("%Y-%m-%d")}</td><td><a href=\"/news/{post.filename.replace(".md", ".html")}\">{post.title}</a></td></tr>\n")
+        lines_stripped.insert(feed_start + i + 1, f"<tr id=\"feed_entry\"><td></td><td><a href=\"/news.html\">View all...</a></td></tr>\n")
+    with open("index.html", "w+") as newfile:
+        newfile.writelines(lines_stripped)
+
+def update_news_html(posts: list[Post]):
+    with open("news.html", "r") as file:
+        lines: list[str] = file.readlines()
+        lines_stripped = [line for line in lines if not line.strip().startswith("<tr id=\"feed_entry\">")]
+        feed_start = [line.strip() for line in lines].index("<!--start feed data-->") + 1
+        for i, post in enumerate(reversed(posts)):
+            lines_stripped.insert(feed_start + i, f"<tr id=\"feed_entry\"><td>{post.published.strftime("%Y-%m-%d")}</td><td><a href=\"/news/{post.filename.replace(".md", ".html")}\">{post.title}</a></td></tr>\n")
+    with open("news.html", "w+") as newfile:
+        newfile.writelines(lines_stripped)
+
 
 if __name__ == "__main__":
 
@@ -76,11 +98,5 @@ if __name__ == "__main__":
         rssPretty = dom = xml.dom.minidom.parseString(rss)
         file.writelines(rssPretty.toprettyxml())
 
-    with open("index.html", "r") as file:
-        lines: list[str] = file.readlines()
-        lines_stripped = [line for line in lines if not line.strip().startswith("<tr id=\"feed_entry\">")]
-        feed_start = [line.strip() for line in lines].index("<!--start feed data-->") + 1
-        for i, post in enumerate(reversed(posts)):
-            lines_stripped.insert(feed_start + i, f"<tr id=\"feed_entry\"><td>{post.published.strftime("%Y-%m-%d")}</td><td><a href=\"/news/{post.filename.replace(".md", ".html")}\">{post.title}</a></td></tr>\n")
-    with open("index.html", "w+") as newfile:
-        newfile.writelines(lines_stripped)
+    update_index_html(posts)
+    update_news_html(posts)
