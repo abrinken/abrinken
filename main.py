@@ -1,4 +1,5 @@
 from datetime import datetime as dt
+import datetime
 from dateutil import tz
 import os
 import markdown
@@ -6,6 +7,8 @@ import rssgen
 import rssgen.feed
 import xml.dom.minidom
 from operator import attrgetter
+
+utc = datetime.timezone(datetime.timedelta(hours=0),name="UTC")
 
 class Post:
     def __init__(self):
@@ -18,7 +21,9 @@ class Post:
         self.filename = filename
         for line in content:
             if line.startswith("title: "): self.title = line[len("title: "):None]
-            elif line.startswith("published: "): self.published = dt.fromisoformat(line[len("published: "):None]).astimezone(tz.tzutc())
+            elif line.startswith("published: "): 
+                tmp = dt.fromisoformat(line[len("published: "):None])
+                self.published = datetime.datetime(tmp.year, tmp.month, tmp.day, tmp.hour, tmp.minute, tmp.second, 0, utc)
             else: self.content += line + "\n"
 
         return self
