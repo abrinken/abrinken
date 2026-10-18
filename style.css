@@ -80,6 +80,21 @@ td {
   margin: 10px;
 }
 
+.poster-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.poster-container a img {
+  width: 100%;
+  max-height: 50vh;
+  height: 100%;
+  vertical-align: middle;
+  object-fit: contain;
+}
+
 .photo-container {
   display: flex;
   flex-wrap: wrap;
